@@ -15,7 +15,7 @@ def home():
 
 # Posts list
 @app.route("/posts")
-def posts():
+def postsS():
     response = requests.get(POSTS_API)
     posts = response.json()
 
